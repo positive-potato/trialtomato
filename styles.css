@@ -78,8 +78,20 @@ main {
 }
 
 .hero {
+  background-image: url('05jtetckc5asjbeto03g.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #111; /* fallback */
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  padding: 2rem;
   text-align: center;
-  margin-bottom: 4rem;
 }
 
 .hero h1 {
